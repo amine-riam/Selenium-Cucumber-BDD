@@ -51,7 +51,7 @@ import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
 		/**
 		 * Executes only scenarios or features with the specified tag.
 		 */
-		tags = ("@login"),
+		tags = ("@newsletter_validCredentials"),
 
 		/**
 		 * Removes unnecessary characters from the console output, making it more

@@ -15,6 +15,7 @@ public class LoginSteps {
 	LoginPage loginPage = new LoginPage();
 	ConfigFileReader configFileReader = new ConfigFileReader();
 
+
 	@Given("Je me connecte sur le site Web Demo Shop")
 	public void jeMeConnecteSurLeSiteWebDemoShop() {
 		Setup.getDriver().get(configFileReader.getProperty("home.url"));
